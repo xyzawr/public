@@ -1,0 +1,199 @@
+
+@font-face{
+font-family: Fleuron;
+src: url(/fleuronregular-webfont.woff2)
+
+}
+
+
+
+body {
+  font-family: Fleuron;
+  margin: 0;
+}
+
+.title {
+  text-decoration: none;
+  color: black;
+  margin: 10px 10px 10px 10px;
+  font-size: 30px;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 12px;
+  color: black;
+  margin-left: 20px;
+  margin-bottom: 2px;
+}
+
+.strike {
+  text-decoration: none;
+}
+.strike:hover {
+  text-decoration: line-through;
+}
+
+.strike:focus {
+  font-weight: bold !important;
+}
+
+
+
+.button {
+  background-color: transparent;
+  border: none;
+  text-align: left;
+  text-decoration: none;
+  padding: 0px 0px 0px 20px;
+  font-size: 12px;
+  outline: 0 none;
+  float: right;
+  padding-right: 40px;
+}
+
+.button-lookbook{
+ background-color: transparent;
+  border: none;
+  text-decoration: none;
+  font-size: 20px;
+  outline: 0 none;
+   float: right;
+   padding-top: 5px;
+}
+
+#menu {
+  display: none;
+  flex-direction:column;
+  padding-left: 10px;
+  
+}
+
+#menu a {
+  display: block;
+  margin-bottom: 2px;
+}
+
+#menu.open {
+  display: flex;
+}
+
+.current-menu-item {
+  font-weight: bold !important;
+}
+
+
+#content1 {
+  display: inline-block;
+  overflow: hidden;            /* clip the excess when child gets bigger than parent */
+}
+
+.product-foto {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  transition: transform 0.2s; 
+  
+}
+
+
+
+.product-description {
+  font-size: 12px;
+}
+
+
+.icon{
+  width: 20px;
+  
+}
+
+.icons{
+  display: flex;
+  align-items:flex-end
+
+}
+
+
+.koszyk{
+   text-decoration: none;
+  font-size: 12px;
+  color: black;
+}
+
+.error{
+text-align: center;
+
+}
+
+
+
+.singleProduct{
+
+  font-size: 22px;
+  padding-left: 100px;
+}
+
+.singleProductPrice{
+  font-size: 16px;
+  padding-left: 100px;
+  
+}
+
+.singleProductDescription{
+  font-size: 12px;
+  padding-left: 100px;
+  
+}
+
+.singleProductDescriptionList{
+  font-size: 12px;
+  padding-left: 115px;
+  
+}
+
+
+#sizeList {
+  padding-left: 5px;
+  width: 150px;
+  height: 25px;
+  border-color: black;
+  border-width: thin;
+}
+
+#submitButton {
+margin-left: 100px;
+  width: 150px;
+  height: 25px;
+  border-color: black;
+  background-color: black;
+  color: white;
+  border-width: thin;
+  cursor:pointer;
+}
+
+
+
+
+.slider {
+  
+
+  cursor: pointer; 
+background: none;
+border: none;
+ font-size: 26px;
+
+}
+
+
+#sliders{
+padding: 10px;
+  float: right;
+
+}
